@@ -26,7 +26,7 @@
         } else {
             echo "Document not found.";
         }
-        // Close the statement and connection
+        
         $stmt->close();
         $mysqli->close();   
     } else {
